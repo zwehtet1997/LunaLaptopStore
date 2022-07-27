@@ -1,0 +1,130 @@
+body
+{
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1 , h2  , h3
+{
+    font-family: 'Roboto Mono', monospace;
+}
+h1::after
+{
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 120px;
+    height: 2px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+nav#nav-bar
+{
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+nav > img
+{
+    padding: 9px 8px 6px 15px;
+    cursor: pointer;
+}
+nav > a
+{
+    /* border  : 1px solid white; */
+    color: white;
+    text-decoration: none;
+    vertical-align: top;
+    float: right;
+    margin: 18px 12px 0 20px;
+    padding: 12px;
+    font-size: 14pt;
+}
+nav > a:hover 
+{
+    color: #4E7B5C;
+}
+
+/* ---------- Welcome Section ------------ */
+section#wel-sect
+{
+    position: relative;
+}
+section#wel-sect > div
+{
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.btn 
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 28px;
+    box-shadow: 3px 4px 6px black;
+    color: black;
+    font-size: 12pt;
+    /* background: rgba(0, 0, 0, 0.8); */
+    padding: 5px 8px 5px 8px;
+    text-decoration: none;
+}
+button.btn:hover
+{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+/* Section About Us */
+section#about-us > div
+{
+    /* border: 1px solid black; */
+    width: 78%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.8);
+}
+section#about-us > div > table
+{
+    /* border: 1px solid black; */
+    width: 52%;
+    display: inline-block;
+    height: 275px;
+    padding-left: 45px;
+}
+#store-img1
+{
+    width: 100%;
+    height: 270px;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+#store-img2
+{
+    width: 94%;
+    height: 130px;
+    border-top-right-radius: 40px;
+}
+#store-img3
+{
+    width: 94%;
+    height: 130px;
+    border-bottom-right-radius: 40px;
+}
+section#about-us > div > div
+{
+    vertical-align: top;
+    width: 43%;
+    display: inline-block;
+    padding : 25px 0 0 10px;
+}
+section#about-us > div > div > a
+{
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
